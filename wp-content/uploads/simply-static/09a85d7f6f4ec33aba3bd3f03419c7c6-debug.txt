@@ -1,0 +1,739 @@
+[2024-09-17 18:02:08] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-09-17 18:02:08] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-09-17 18:02:08] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-09-17 18:02:12] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-09-17 18:02:12] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-09-17 18:02:12] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-09-17 18:02:12] [class-ss-setup-task.php:33] Creating archive directory: D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128\
+[2024-09-17 18:02:12] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost:8080/wordpress/
+[2024-09-17 18:02:12] [class-ss-setup-task.php:137] File D:\Harshita\xampp\htdocs\wordpress\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: D:/Harshita/xampp/htdocs/wordpress/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-17 18:02:13] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-09-17 18:02:13] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-17 18:02:13] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-17 18:02:13] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-09-17 18:02:13] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/
+[2024-09-17 18:02:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-09-17 18:02:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4252adc9-h6iFdP.tmp
+[2024-09-17 18:02:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/?simply_static_page=1
+[2024-09-17 18:02:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/?simply_static_page=1
+[2024-09-17 18:02:16] [class-ss-url-fetcher.php:103] Filesize: 37347 bytes
+[2024-09-17 18:02:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-09-17 18:02:16] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-09-17 18:02:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4252adc9-h6iFdP.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/index.html
+[2024-09-17 18:02:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:17] [class-ss-fetch-urls-task.php:159] Adding 42 URLs to the queue
+[2024-09-17 18:02:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:25] [class-ss-page.php:119] Checking Content Identical:47b575d795b89284e94b59196eff027a56cccf72===. Value: FALSE
+[2024-09-17 18:02:25] [class-ss-fetch-urls-task.php:72] URL: D:/Harshita/xampp/htdocs/wordpress/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-09-17 18:02:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-09-17 18:02:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:25] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-09-17 18:02:25] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-09-17 18:02:26] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-17 18:02:26] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-17 18:02:26] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 41
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mobile-menu.png
+[2024-09-17 18:02:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 43
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4323736e-SxNbCB.tmp
+[2024-09-17 18:02:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mobile-menu.png?simply_static_page=3
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mobile-menu.png?simply_static_page=3
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:103] Filesize: 185 bytes
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/mobile-menu.png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4323736e-SxNbCB.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/mobile-menu.png
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:26] [class-ss-page.php:119] Checking Content Identical:07045176528e1493c9f7d2e4182b3faf6dcb2a0c===. Value: FALSE
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/dummylogo1.png
+[2024-09-17 18:02:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 43
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4328b1d9-4Ms5Ou.tmp
+[2024-09-17 18:02:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/dummylogo1.png?simply_static_page=4
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/dummylogo1.png?simply_static_page=4
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:103] Filesize: 1264 bytes
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/dummylogo1.png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4328b1d9-4Ms5Ou.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/dummylogo1.png
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:26] [class-ss-page.php:119] Checking Content Identical:455616b22ebafe85dc129fcb24dce7fc63c13fab===. Value: FALSE
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search.png
+[2024-09-17 18:02:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 43
+[2024-09-17 18:02:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c432db12d-eBvlby.tmp
+[2024-09-17 18:02:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search.png?simply_static_page=5
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search.png?simply_static_page=5
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:103] Filesize: 507 bytes
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/search.png
+[2024-09-17 18:02:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c432db12d-eBvlby.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/search.png
+[2024-09-17 18:02:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:28] [class-ss-page.php:119] Checking Content Identical:0c4b5dd92bbdc4da295b13845d1c58f0b3a9658c===. Value: FALSE
+[2024-09-17 18:02:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search-icon.png
+[2024-09-17 18:02:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 43
+[2024-09-17 18:02:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c435d65fa-tCY8M1.tmp
+[2024-09-17 18:02:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search-icon.png?simply_static_page=6
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/search-icon.png?simply_static_page=6
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:103] Filesize: 364 bytes
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/search-icon.png
+[2024-09-17 18:02:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c435d65fa-tCY8M1.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/search-icon.png
+[2024-09-17 18:02:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:29] [class-ss-page.php:119] Checking Content Identical:4ff6ca1399e4f8cbea2a3b668d6bf4455c3d2da0===. Value: FALSE
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/cart.png
+[2024-09-17 18:02:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 43
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43628c47-Zp1A5Y.tmp
+[2024-09-17 18:02:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/cart.png?simply_static_page=7
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/cart.png?simply_static_page=7
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:103] Filesize: 381 bytes
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/cart.png
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43628c47-Zp1A5Y.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/cart.png
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:30] [class-ss-page.php:119] Checking Content Identical:c70f837e8f552caddb679f9fc3159cc36d82a146===. Value: FALSE
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/login.png
+[2024-09-17 18:02:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 43
+[2024-09-17 18:02:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c436c362d-QXzpsG.tmp
+[2024-09-17 18:02:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/login.png?simply_static_page=8
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/login.png?simply_static_page=8
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:103] Filesize: 464 bytes
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/login.png
+[2024-09-17 18:02:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c436c362d-QXzpsG.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/login.png
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:31] [class-ss-page.php:119] Checking Content Identical:ee625d16910743020f90c18073ac7dff4e2aa31b===. Value: FALSE
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image-mobile.png
+[2024-09-17 18:02:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 43
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4373d68a-akZ45r.tmp
+[2024-09-17 18:02:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image-mobile.png?simply_static_page=9
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image-mobile.png?simply_static_page=9
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:103] Filesize: 188159 bytes
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/banner-image-mobile.png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4373d68a-akZ45r.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/banner-image-mobile.png
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:31] [class-ss-page.php:119] Checking Content Identical:e2e9863615742d7aaf60c8501a99f718d4d73862===. Value: FALSE
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/big-star.png
+[2024-09-17 18:02:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 43
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43791d9b-MZLveX.tmp
+[2024-09-17 18:02:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/big-star.png?simply_static_page=10
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/big-star.png?simply_static_page=10
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:103] Filesize: 1044 bytes
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/big-star.png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43791d9b-MZLveX.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/big-star.png
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:31] [class-ss-page.php:119] Checking Content Identical:2ca5b3cd4e6fe5872bb630ab441969d1e7f86d55===. Value: FALSE
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/small-star.png
+[2024-09-17 18:02:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 43
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c437cf171-FrxLZV.tmp
+[2024-09-17 18:02:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/small-star.png?simply_static_page=11
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/small-star.png?simply_static_page=11
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:103] Filesize: 576 bytes
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/small-star.png
+[2024-09-17 18:02:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c437cf171-FrxLZV.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/small-star.png
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:31] [class-ss-page.php:119] Checking Content Identical:a608a6d86e5d1163f1f554829f06ebb1896c9ed0===. Value: FALSE
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/versace.png
+[2024-09-17 18:02:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 43
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4380f4e9-6vWYSA.tmp
+[2024-09-17 18:02:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/versace.png?simply_static_page=12
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/versace.png?simply_static_page=12
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:103] Filesize: 2128 bytes
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/versace.png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4380f4e9-6vWYSA.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/versace.png
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:32] [class-ss-page.php:119] Checking Content Identical:03add556b79c4e81e775ef52d2e71f3a358859bb===. Value: FALSE
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/zara.png
+[2024-09-17 18:02:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 43
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c438525dc-diHlUc.tmp
+[2024-09-17 18:02:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/zara.png?simply_static_page=13
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/zara.png?simply_static_page=13
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:103] Filesize: 1504 bytes
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/zara.png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c438525dc-diHlUc.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/zara.png
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:32] [class-ss-page.php:119] Checking Content Identical:89d806f727c4280e3142d7a14a4fbb468bf180f3===. Value: FALSE
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gucci.png
+[2024-09-17 18:02:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 43
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43894d14-1ITuPT.tmp
+[2024-09-17 18:02:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gucci.png?simply_static_page=14
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gucci.png?simply_static_page=14
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:103] Filesize: 1562 bytes
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/gucci.png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43894d14-1ITuPT.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/gucci.png
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:32] [class-ss-page.php:119] Checking Content Identical:49366021777dcb277d9002a701fda0dd790d019f===. Value: FALSE
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/prada.png
+[2024-09-17 18:02:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 43
+[2024-09-17 18:02:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c438d46ec-XPyYUz.tmp
+[2024-09-17 18:02:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/prada.png?simply_static_page=15
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/prada.png?simply_static_page=15
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:103] Filesize: 1786 bytes
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/prada.png
+[2024-09-17 18:02:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c438d46ec-XPyYUz.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/prada.png
+[2024-09-17 18:02:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:33] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:33] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:33] [class-ss-page.php:119] Checking Content Identical:9e73517844a1abc49258eeac4b2821be7aa8ff2b===. Value: FALSE
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/ck.png
+[2024-09-17 18:02:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 43
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43b31043-M0pw7s.tmp
+[2024-09-17 18:02:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/ck.png?simply_static_page=16
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/ck.png?simply_static_page=16
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:103] Filesize: 2475 bytes
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/ck.png
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43b31043-M0pw7s.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/ck.png
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:35] [class-ss-page.php:119] Checking Content Identical:40a24e749bed18299827ed3810cf6d43c11fdbc8===. Value: FALSE
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product1.png
+[2024-09-17 18:02:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 43
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43bd664b-SWd4fa.tmp
+[2024-09-17 18:02:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product1.png?simply_static_page=17
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product1.png?simply_static_page=17
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:103] Filesize: 29487 bytes
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/product1.png
+[2024-09-17 18:02:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43bd664b-SWd4fa.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/product1.png
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:35] [class-ss-page.php:119] Checking Content Identical:ce0ec4edfda292efafd1002cfad36ebfe7b96c96===. Value: FALSE
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product2.png
+[2024-09-17 18:02:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 43
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43c1c968-GWcYW5.tmp
+[2024-09-17 18:02:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product2.png?simply_static_page=18
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product2.png?simply_static_page=18
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:103] Filesize: 51778 bytes
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/product2.png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43c1c968-GWcYW5.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/product2.png
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:36] [class-ss-page.php:119] Checking Content Identical:b47f45391dc6913311e87f6afa3522e2468e65ed===. Value: FALSE
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product3.png
+[2024-09-17 18:02:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 43
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43c4b5c3-LVaUxL.tmp
+[2024-09-17 18:02:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product3.png?simply_static_page=19
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product3.png?simply_static_page=19
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:103] Filesize: 84769 bytes
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/product3.png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43c4b5c3-LVaUxL.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/product3.png
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:36] [class-ss-page.php:119] Checking Content Identical:55e845afa21185a2443f7067fa2911ccd4c68e58===. Value: FALSE
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product4.png
+[2024-09-17 18:02:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 43
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43c909dd-Lt86Tw.tmp
+[2024-09-17 18:02:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product4.png?simply_static_page=20
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/product4.png?simply_static_page=20
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:103] Filesize: 55539 bytes
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/product4.png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43c909dd-Lt86Tw.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/product4.png
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:36] [class-ss-page.php:119] Checking Content Identical:68b4debeb5624646a50c99588354ca14bc43f6c0===. Value: FALSE
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/casuals.png
+[2024-09-17 18:02:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 43
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43cd0f35-VGbcA2.tmp
+[2024-09-17 18:02:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/casuals.png?simply_static_page=21
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/casuals.png?simply_static_page=21
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:103] Filesize: 88886 bytes
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/casuals.png
+[2024-09-17 18:02:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43cd0f35-VGbcA2.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/casuals.png
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:36] [class-ss-page.php:119] Checking Content Identical:60be3f53e94a76b3a3aa69f514733199b9452d2a===. Value: FALSE
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/formals.png
+[2024-09-17 18:02:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 43
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43d14818-RwjsIq.tmp
+[2024-09-17 18:02:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/formals.png?simply_static_page=22
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/formals.png?simply_static_page=22
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:103] Filesize: 174194 bytes
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/formals.png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43d14818-RwjsIq.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/formals.png
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:37] [class-ss-page.php:119] Checking Content Identical:4e455b4b3eb794ad3d5aae7664fea0a9bdb9854f===. Value: FALSE
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/party.png
+[2024-09-17 18:02:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 43
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43d63407-x4MDgM.tmp
+[2024-09-17 18:02:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/party.png?simply_static_page=23
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/party.png?simply_static_page=23
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:103] Filesize: 212390 bytes
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/party.png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43d63407-x4MDgM.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/party.png
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:37] [class-ss-page.php:119] Checking Content Identical:bdf657fc6acbecf02e2238489356659635594a8c===. Value: FALSE
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gym.png
+[2024-09-17 18:02:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 43
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43dadd40-0y5oSW.tmp
+[2024-09-17 18:02:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gym.png?simply_static_page=24
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gym.png?simply_static_page=24
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:103] Filesize: 82561 bytes
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/gym.png
+[2024-09-17 18:02:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43dadd40-0y5oSW.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/gym.png
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:37] [class-ss-page.php:119] Checking Content Identical:4c8532a4b0314efabef177dcb9524f956e87a588===. Value: FALSE
+[2024-09-17 18:02:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/message.png
+[2024-09-17 18:02:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 43
+[2024-09-17 18:02:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c43e07528-v9bKOf.tmp
+[2024-09-17 18:02:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/message.png?simply_static_page=25
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/message.png?simply_static_page=25
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:103] Filesize: 419 bytes
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/message.png
+[2024-09-17 18:02:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c43e07528-v9bKOf.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/message.png
+[2024-09-17 18:02:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:39] [class-ss-page.php:119] Checking Content Identical:0d7e596786bbb757559da0f679fa12036be32e00===. Value: FALSE
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/twitter.png
+[2024-09-17 18:02:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 43
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c440624ee-F3C30q.tmp
+[2024-09-17 18:02:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/twitter.png?simply_static_page=26
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/twitter.png?simply_static_page=26
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:103] Filesize: 235 bytes
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/twitter.png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c440624ee-F3C30q.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/twitter.png
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:40] [class-ss-page.php:119] Checking Content Identical:c08f6bf65ecea4bf2daaa3c9307b6c23d471bf82===. Value: FALSE
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/facebook.png
+[2024-09-17 18:02:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 43
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c44096dc3-2RbUMW.tmp
+[2024-09-17 18:02:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/facebook.png?simply_static_page=27
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/facebook.png?simply_static_page=27
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:103] Filesize: 220 bytes
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/facebook.png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c44096dc3-2RbUMW.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/facebook.png
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:40] [class-ss-page.php:119] Checking Content Identical:68a283c7360835b18a60f47319509115fea90ec4===. Value: FALSE
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/instagram.png
+[2024-09-17 18:02:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 43
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c440c2315-kUl4nT.tmp
+[2024-09-17 18:02:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/instagram.png?simply_static_page=28
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/instagram.png?simply_static_page=28
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:103] Filesize: 337 bytes
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/instagram.png
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c440c2315-kUl4nT.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/instagram.png
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:40] [class-ss-page.php:119] Checking Content Identical:cb25b488041adaf5cbf65ca966d5f19cd97e542b===. Value: FALSE
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/github.png
+[2024-09-17 18:02:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 43
+[2024-09-17 18:02:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c440f1407-NP8igT.tmp
+[2024-09-17 18:02:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/github.png?simply_static_page=29
+[2024-09-17 18:02:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/github.png?simply_static_page=29
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:103] Filesize: 305 bytes
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/github.png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c440f1407-NP8igT.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/github.png
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:41] [class-ss-page.php:119] Checking Content Identical:c9a5e119bbb07eb00db832e954a698f005b8b208===. Value: FALSE
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/visa.png
+[2024-09-17 18:02:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 43
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4414df8b-oZ0FSi.tmp
+[2024-09-17 18:02:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/visa.png?simply_static_page=30
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/visa.png?simply_static_page=30
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:103] Filesize: 3066 bytes
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/visa.png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4414df8b-oZ0FSi.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/visa.png
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:41] [class-ss-page.php:119] Checking Content Identical:7d5f6b9f23a4f992be1341569807cfa310285169===. Value: FALSE
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mastercard.png
+[2024-09-17 18:02:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 43
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c44191c8b-p48pGy.tmp
+[2024-09-17 18:02:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mastercard.png?simply_static_page=31
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/mastercard.png?simply_static_page=31
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:103] Filesize: 3012 bytes
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/mastercard.png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c44191c8b-p48pGy.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/mastercard.png
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:41] [class-ss-page.php:119] Checking Content Identical:f77cda8622500bf1488eea8534bbd25c349e2728===. Value: FALSE
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/paypal.png
+[2024-09-17 18:02:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 43
+[2024-09-17 18:02:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c441de54c-GUmi2H.tmp
+[2024-09-17 18:02:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/paypal.png?simply_static_page=32
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/paypal.png?simply_static_page=32
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:103] Filesize: 3046 bytes
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/paypal.png
+[2024-09-17 18:02:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c441de54c-GUmi2H.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/paypal.png
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:42] [class-ss-page.php:119] Checking Content Identical:fea977ad5d0a9d3553ccd1c2f3d45b2f8282bcc2===. Value: FALSE
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/applepay.png
+[2024-09-17 18:02:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 43
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4422e5ee-Jq6wB5.tmp
+[2024-09-17 18:02:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/applepay.png?simply_static_page=33
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/applepay.png?simply_static_page=33
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:103] Filesize: 2926 bytes
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/applepay.png
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4422e5ee-Jq6wB5.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/applepay.png
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:42] [class-ss-page.php:119] Checking Content Identical:6af33a6b36e6d9e3e74fee0db77939039d7b4b0e===. Value: FALSE
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gpay.png
+[2024-09-17 18:02:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 43
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c442d5a8c-XLpdO2.tmp
+[2024-09-17 18:02:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gpay.png?simply_static_page=34
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/gpay.png?simply_static_page=34
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:103] Filesize: 3090 bytes
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/gpay.png
+[2024-09-17 18:02:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c442d5a8c-XLpdO2.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/gpay.png
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:42] [class-ss-page.php:119] Checking Content Identical:e947d0449dd19ebee3d6c43a66714ed862910b6a===. Value: FALSE
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/main.js
+[2024-09-17 18:02:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 43
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c443238ed-buHURd.tmp
+[2024-09-17 18:02:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/main.js?simply_static_page=35
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/main.js?simply_static_page=35
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:103] Filesize: 1677 bytes
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/js/main.js
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c443238ed-buHURd.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/js/main.js
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:43] [class-ss-page.php:119] Checking Content Identical:a9df1428ee74eabf978c45634480dea979160fe5===. Value: FALSE
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/testimonial.js
+[2024-09-17 18:02:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 43
+[2024-09-17 18:02:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c443657ee-a9FZm4.tmp
+[2024-09-17 18:02:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/testimonial.js?simply_static_page=36
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/js/testimonial.js?simply_static_page=36
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:103] Filesize: 1115 bytes
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/js/testimonial.js
+[2024-09-17 18:02:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c443657ee-a9FZm4.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/js/testimonial.js
+[2024-09-17 18:02:44] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:44] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:44] [class-ss-page.php:119] Checking Content Identical:c5fce548fd196b6bd01ac3399846865addd55e0f===. Value: FALSE
+[2024-09-17 18:02:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css
+[2024-09-17 18:02:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4460aa8a-KphrBT.tmp
+[2024-09-17 18:02:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css?simply_static_page=37
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css?simply_static_page=37
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:103] Filesize: 18129 bytes
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/style.css
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4460aa8a-KphrBT.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/style.css
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:46] [class-ss-page.php:119] Checking Content Identical:da8f810433a9466debe99d9272a6afb1bc2391f9===. Value: FALSE
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/mobile.css
+[2024-09-17 18:02:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c446bc6f3-amETeP.tmp
+[2024-09-17 18:02:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/mobile.css?simply_static_page=38
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/mobile.css?simply_static_page=38
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:103] Filesize: 4448 bytes
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:229] Unable to create temporary directory: D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128\/wp-content/themes/fashion-store/style.css/../media-queries/
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:46] [class-ss-page.php:119] Checking Content Identical:===. Value: FALSE
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/tablet.css
+[2024-09-17 18:02:46] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2024-09-17 18:02:46] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c446ee07e-oJQ5hL.tmp
+[2024-09-17 18:02:46] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/tablet.css?simply_static_page=39
+[2024-09-17 18:02:46] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/style.css/../media-queries/tablet.css?simply_static_page=39
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:103] Filesize: 2822 bytes
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:229] Unable to create temporary directory: D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128\/wp-content/themes/fashion-store/style.css/../media-queries/
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-17 18:02:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:47] [class-ss-page.php:119] Checking Content Identical:===. Value: FALSE
+[2024-09-17 18:02:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-json/
+[2024-09-17 18:02:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2024-09-17 18:02:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4473c742-LZAsMB.tmp
+[2024-09-17 18:02:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-json/?simply_static_page=40
+[2024-09-17 18:02:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-json/?simply_static_page=40
+[2024-09-17 18:02:52] [class-ss-url-fetcher.php:103] Filesize: 187950 bytes
+[2024-09-17 18:02:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-17 18:02:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-09-17 18:02:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4473c742-LZAsMB.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-json/index.html
+[2024-09-17 18:02:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:02:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:02:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:02:52] [class-ss-page.php:119] Checking Content Identical:1e1c670ec44ad24c7fe8b792a45348abd5872bb8===. Value: FALSE
+[2024-09-17 18:02:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-json/wp/v2/pages/41
+[2024-09-17 18:02:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2024-09-17 18:02:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:02:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c44e21a42-HLe7EG.tmp
+[2024-09-17 18:02:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-json/wp/v2/pages/41?simply_static_page=41
+[2024-09-17 18:02:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-json/wp/v2/pages/41?simply_static_page=41
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:103] Filesize: 1523 bytes
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/41\index.html
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c44e21a42-HLe7EG.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-json/wp/v2/pages/41\index.html
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:03:02] [class-ss-page.php:119] Checking Content Identical:0604edae64abc186d5d214da450a8443ea613cd5===. Value: FALSE
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/xmlrpc.php
+[2024-09-17 18:03:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost:8080/wordpress/xmlrpc.php
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-json/oembed/1.0/embed
+[2024-09-17 18:03:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2024-09-17 18:03:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4569b382-N8v09y.tmp
+[2024-09-17 18:03:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-json/oembed/1.0/embed?simply_static_page=43
+[2024-09-17 18:03:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-json/oembed/1.0/embed?simply_static_page=43
+[2024-09-17 18:03:10] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-09-17 18:03:10] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-09-17 18:03:10] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-09-17 18:03:10] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 43 pages/files
+[2024-09-17 18:03:10] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-17 18:03:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-17 18:03:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-17 18:03:15] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 4
+[2024-09-17 18:03:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.eot
+[2024-09-17 18:03:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 47
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c46419311-fNFNZW.tmp
+[2024-09-17 18:03:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.eot?simply_static_page=44
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.eot?simply_static_page=44
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:103] Filesize: 86838 bytes
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/fonts/IntegralCF-Bold.eot
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c46419311-fNFNZW.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.eot
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:03:16] [class-ss-page.php:119] Checking Content Identical:f93d189f2380dfc9bacf0bdecc017450562b1352===. Value: FALSE
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.woff
+[2024-09-17 18:03:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 47
+[2024-09-17 18:03:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c46490d50-ae3KBH.tmp
+[2024-09-17 18:03:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.woff?simply_static_page=45
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.woff?simply_static_page=45
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:103] Filesize: 30484 bytes
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/fonts/IntegralCF-Bold.woff
+[2024-09-17 18:03:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c46490d50-ae3KBH.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.woff
+[2024-09-17 18:03:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:03:17] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:03:17] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:03:17] [class-ss-page.php:119] Checking Content Identical:e905c8d2e99f1fd864efed895c6439b6e1931fc7===. Value: FALSE
+[2024-09-17 18:03:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.ttf
+[2024-09-17 18:03:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 47
+[2024-09-17 18:03:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:03:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c465e771c-U0U08R.tmp
+[2024-09-17 18:03:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.ttf?simply_static_page=46
+[2024-09-17 18:03:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.ttf?simply_static_page=46
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:103] Filesize: 86656 bytes
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/fonts/IntegralCF-Bold.ttf
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c465e771c-U0U08R.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/fonts/IntegralCF-Bold.ttf
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:03:18] [class-ss-page.php:119] Checking Content Identical:bc7496132f3d25c7fd4de0b750343770e8dc51b6===. Value: FALSE
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image.png
+[2024-09-17 18:03:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 47
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c4664c0ed-AL0uV3.tmp
+[2024-09-17 18:03:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image.png?simply_static_page=47
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/wp-content/themes/fashion-store/images/banner-image.png?simply_static_page=47
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:103] Filesize: 429625 bytes
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/fashion-store/images/banner-image.png
+[2024-09-17 18:03:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c4664c0ed-AL0uV3.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128/wp-content/themes/fashion-store/images/banner-image.png
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-09-17 18:03:18] [class-ss-page.php:119] Checking Content Identical:0c31137071e115ef3e1d49a4f4a403dc0e1a9c68===. Value: FALSE
+[2024-09-17 18:03:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 47 pages/files
+[2024-09-17 18:03:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-09-17 18:03:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-09-17 18:03:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-09-17 18:03:18] [class-ss-fetch-urls-task.php:69] Total pages: 47; Pages remaining: 0
+[2024-09-17 18:03:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 47 of 47 pages/files
+[2024-09-17 18:03:18] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-09-17 18:03:19] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-09-17 18:03:19] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-09-17 18:03:19] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-09-17 18:03:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\harsh\AppData\Local\Temp/66e9c467a3234-GmKTnP.tmp
+[2024-09-17 18:03:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost:8080/wordpress/1726596200?simply_static_page=0
+[2024-09-17 18:03:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost:8080/wordpress/1726596200?simply_static_page=0
+[2024-09-17 18:03:25] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-09-17 18:03:25] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-09-17 18:03:25] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-09-17 18:03:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\harsh\AppData\Local\Temp/66e9c467a3234-GmKTnP.tmp to D:\Harshita\xampp\htdocs\wordpress/wp-content/uploads\simply-static\temp-files/simply-static-1-1726596128\404/index.html
+[2024-09-17 18:03:25] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-09-17 18:03:25] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-09-17 18:03:25] [class-ss-page.php:119] Checking Content Identical:b858cb282617fb0956d960215c8e84d1ccf909c6===. Value: FALSE
+[2024-09-17 18:03:25] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-09-17 18:03:25] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-09-17 18:03:25] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-09-17 18:03:25] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-09-17 18:03:25] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 42 of 42 files
+[2024-09-17 18:03:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/
+[2024-09-17 18:03:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:25] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:28] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:29] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:30] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/js
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/js
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-json
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-json/wp/v2/pages
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:115] Cannot copy D:/Harshita/xampp/htdocs/wordpress/wp-content/uploads/simply-static/temp-files/simply-static-1-1726596128/wp-json/wp/v2/pages/41/index.html to D:/Harshita/xampp/htdocs/wordpress/wp-json/wp/v2/pages/41/index.html
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/fonts
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/fonts
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/fonts
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: D:/Harshita/xampp/htdocs/wordpress/wp-content/themes/fashion-store/images
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:42. Processed Pages: 42
+[2024-09-17 18:03:31] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 42 of 42 files
+[2024-09-17 18:03:31] [trait-can-process-pages.php:103] Total pages: 42; Pages remaining: 0
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at D:\Harshita\xampp\htdocs\wordpress\404\index.html
+[2024-09-17 18:03:31] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-09-17 18:03:31] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://harshitajs.github.io/dummystore/" target="_blank">https://harshitajs.github.io/dummystore/</a>
+[2024-09-17 18:03:32] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-09-17 18:03:33] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-09-17 18:03:33] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-09-17 18:03:33] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-09-17 18:03:33] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-09-17 18:03:33] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-09-17 18:03:33] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-09-17 18:03:33] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:25

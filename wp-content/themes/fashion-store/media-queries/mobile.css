@@ -1,0 +1,203 @@
+@media screen and (min-width:320px) and (max-width:765px){
+  .wrapper{
+    margin:0 10px;
+    width:calc(100% - 20px);
+  }
+  .announcement-msg{
+    font-size: 12px;
+    text-align: center;
+    width:100%;
+  }
+  .announcement-close{
+    display: none;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .desktop-header-container .logo{
+    flex:1;
+  }
+  .desktop-header-container .mobile-menu{
+    display: block;
+  }
+  .search-bar{
+    display: none;
+  }
+  .left-header-icons img{
+    width:24px;
+  }
+  .left-header-icons img:first-child{
+    display: block;
+    margin: 0;
+  }
+  .left-header-icons img:not(:first-child){
+    margin: 0 0 0 12px;
+  }
+  .hero-container{
+    background: none;
+    width: -webkit-fill-available;
+  }
+  .hero-container .hero-text{
+    width:inherit;
+    padding-top:40px;
+    margin-bottom:0;
+  }
+  .hero-container .hero-text h1{
+    font-size:32px;
+    line-height:34px;
+  }
+  .hero-container .hero-text span.hero-desc{
+    font-size:14px;
+    line-height:22px;
+  }
+  .text-break::after{
+    content:"";
+  }
+  .hero-container .hero-text a{
+    width:100%;
+    padding:24px 0;
+  }
+  
+  .hero-container .hero-image{
+    margin-bottom: -5px;    
+  }
+  .banner-image{
+    display: inline;
+    object-position: 5px 10%;
+  }
+  .big-star{
+    width: 70px;
+    height: 70px;
+    right: 2rem;
+    top: 40rem;
+}
+.small-star {
+  width: 40px;
+  height: 40px;
+  left: 2rem;
+  top: 44rem;
+}
+  .hero-container .data-analaytics .data-box span.counter-box{
+    font-size:24px;
+  }
+  .hero-container .data-analaytics .data-box p{
+    font-size:12px;
+  }
+  .hero-container .data-analaytics{
+    flex-wrap: wrap;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
+  .hero-container .data-analaytics .data-box{
+    flex-basis:49%;
+  }
+  .hero-container .data-analaytics .data-box{
+    padding: 0 !important;
+  }
+  .hero-container .data-analaytics .data-box:nth-child(2) *{
+    margin-left: 25px;
+    width:fit-content;
+  }
+  .hero-container .data-analaytics .data-box:not(:last-of-type){
+    border:none;
+  }
+  .hero-container .data-analaytics .data-box:first-child{
+    border-right:1px solid rgba(0,0,0,0.10);
+  }
+  .hero-container .data-analaytics .data-box:last-of-type{
+    flex-basis: 100%;
+  }
+  .hero-container .data-analaytics .data-box:last-child{
+    margin-top:20px;
+    text-align: center;
+  }
+  .hero-container{
+    flex-direction: column;
+  }
+    section .wrapper .heading-box{
+    font-size:32px;
+  }
+  .our-products .wrapper .product-list{   
+    flex-wrap: wrap;
+    gap:25px;
+  }
+  .our-products .wrapper .product-details{
+    flex-basis: calc(100% - 20px);
+    gap:0;
+  }
+  .product-category{
+    padding: 0;
+  }
+  section .wrapper .heading-box.box-title{
+    padding: 22px 0;
+  }
+  .user-testimonial .wrapper .user-testimonial-head{
+    width:286px;
+  }
+  .slick-prev{
+    right:40px !important;
+  }
+  .slick-next{
+    right:15px;
+  }
+  .slick-next, .slick-prev{
+    top:-20px;
+  }
+  .category-img-1, .category-img-2{
+    flex-direction: column;
+  }
+  .product-category .category-img-1 div:first-of-type, .product-category .category-img-2 div:last-of-type,.product-category .category-img-1 div:last-of-type, .product-category .category-img-2 div:first-of-type{
+    width: 100%;
+  }
+  .category-img-1,.category-img-2{
+    gap:16px;
+  }
+  section.footer{
+    margin-top:200px;
+  }
+  .subcription-box, .footer-content{
+    flex-direction: column;
+  }
+  .subcription-header h1{
+    font-size: 32px;
+    text-align: left;
+  }
+  form.subscription-form, .footer-content .company-details{
+    width:100%;
+  }
+  .subcription-box{
+    padding: 32px 24px;
+    margin-bottom: 0;
+  }
+  .subscription-content{
+    margin-top:32px;
+  }
+  .footer-content{
+    padding-bottom: 0;
+    margin-top:-150px;
+  }
+  .footer-content .footer-link{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:20px;
+  }
+  .footer-content .footer-link ul.footer-ul{
+    flex-basis:50%;
+  }
+  .footer-content .footer-link ul.footer-ul:nth-child(n+3){ 
+    margin:20px 0;
+  }
+  .footer-wrapper .footer-end{
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+  }
+  .footer-wrapper .footer-end .copyright{
+    width:100%;
+    text-align: center;
+  }
+  .footer-wrapper .footer-end .payment-mode img{
+    margin: 0;
+    width:50px;
+  }
+}

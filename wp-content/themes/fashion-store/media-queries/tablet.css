@@ -1,0 +1,132 @@
+@media screen and (min-width:768px) and (max-width:1024px){
+  .wrapper{
+    margin:0 25px;
+    width:calc(100% - 50px);
+  }
+  .announcement-bar{
+    width:calc(100% - 400px) !important;
+  }
+  .desktop-header-container .logo{
+    width: fit-content;
+    margin-right: 0;
+  }
+  .desktop-header-container .desktop-nav ul li{
+    margin: 0px 6px;
+  }
+  .search-bar{
+    margin:0;
+    padding:12px;
+  }
+  .search-bar label{
+    margin:0;
+  }
+  .search-bar form input[type="text"]{
+    font-size: 14px;
+  }
+  .left-header-icons{
+    margin-left: 8px;
+  }
+  .left-header-icons img:first-child{
+    margin-right: 6px;
+  }
+  .main-container .wrapper.hero-container{
+    margin-right: 0;
+    width: auto;
+  }
+  .hero-container .hero-text{
+    flex:1.25;    
+  }
+  .hero-container .hero-text h1{
+    font-size:45px;
+    line-height: 45px;
+  }
+  .hero-container .hero-text span.hero-desc{
+    font-size:16px;
+  }
+  .text-break::after{
+    content: "";
+  }
+  .hero-container .data-analaytics .data-box span.counter-box{
+    font-size:32px;
+  }
+  .hero-container .data-analaytics .data-box p{
+    font-size:12px;
+  }
+  .hero-container .data-analaytics .data-box:first-child{
+    padding:0px;
+  }
+  .hero-container .data-analaytics .data-box:first-child{
+    padding: 0px 10px 0 0;
+  }
+  .hero-container .data-analaytics .data-box:not(:first-child){
+    padding: 0px 10px;
+  }
+  .big-star{
+    width: 90px;
+    height: 90px;
+    right: 3rem;
+    top: 10rem;
+  }
+  .small-star{
+    width: 45px;
+    height: 45px;
+    right: 2rem;
+    top: 25rem;
+  }
+  .heading-box .box-title, section .wrapper .heading-box{
+    font-size: 40px;
+  }
+  .our-products .wrapper .product-list{
+    gap:10px;
+  }
+  .our-products .wrapper .product-details{
+    min-width:180px;
+  }
+  .our-products .product-desc .prod-title{
+    font-size: 16px;
+  }
+  .our-products .price .final-price, .our-products .price .sale-price{
+    font-size: 20px;
+  }
+  .our-products .product-desc .fa-star{
+    width:15px;
+    height:15px;
+  }
+  .our-products .price .discount{
+    font-size:10px;
+  }
+  section .wrapper .heading-box.box-title{
+    margin: 0;
+  }
+  .product-category{
+    padding: 60px 40px 66px 40px;
+  }
+  .subcription-box{
+    gap:0 20px;
+    padding:40px;
+    align-items: center;
+  }
+  .subcription-header,.subscription-content{
+    width:50%;
+  }
+  .subcription-header h1{
+    font-size:32px;    
+  }
+  form.subscription-form{
+    width: 100%;
+  justify-content: center;
+  }
+  .footer-content{
+    align-items: baseline;
+  }
+  .footer-content .company-details{
+    width:200px;
+  }
+
+  .footer-content .footer-link ul.footer-ul li a{
+    font-size:14px;
+  }
+  .footer-wrapper .footer-end .payment-mode img{
+    margin: 0;
+  }
+  }
